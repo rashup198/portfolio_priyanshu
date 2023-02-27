@@ -5,9 +5,12 @@
 body{
     font-family: 'Montserrat', sans-serif;;
 }
-
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 :root{
-    --primary-color: red;
+    --primary-color: yellow;
 }
 /** containers **/
 
@@ -47,3 +50,50 @@ margin: auto;
 }
 
 /* look into BEM naming covention for css*/
+
+/* list */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.naviagtion{
+    background: hsl(296, 26%, 67%);
+    color: blue;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem ;
+}
+.navigation .navpills{
+    text-align: right;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation.link{
+    color: black;
+}
+
+/* header */
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    font-size: 2rem;
+    color: gray;
+}
